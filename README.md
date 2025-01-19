@@ -40,12 +40,12 @@ php custom_firewall.php
 
 1. **Rule Matching**:
     
-  Each connection is checked against predefined rules. If the IP and port match and the rule allows it, the connection is accepted.
+     Each connection is checked against predefined rules. If the IP and port match and the rule allows it, the connection is accepted.
 
 2. **Default Deny Policy**:
    
-  If no rules match, the connection is denied by default.
+     If no rules match, the connection is denied by default.
 
 3. **Stream Sockets**:
   
-  The PHP `stream_socket_server` function is used to create a TCP server that listens for incoming connections.
+     The PHP `stream_socket_server` function is used to create a TCP server that listens for incoming connections.
